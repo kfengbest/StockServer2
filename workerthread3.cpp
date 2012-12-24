@@ -12,3 +12,8 @@ void WorkerThread3::run()
 {
 
 }
+
+void WorkerThread3::print()
+{
+
+}

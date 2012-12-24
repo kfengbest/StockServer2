@@ -12,6 +12,8 @@ public:
     
     void run();
 
+    void print();
+
 signals:
     
 public slots:
