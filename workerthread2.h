@@ -10,6 +10,8 @@ class WorkerThread2 : public QObject
 public:
     explicit WorkerThread2(QObject *parent = 0);
 
+    void print();
+
 signals:
 
 public slots:
