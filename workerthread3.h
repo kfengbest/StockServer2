@@ -9,6 +9,8 @@ class WorkerThread3 : public QObject
 public:
     explicit WorkerThread3(QObject *parent = 0);
     
+    void run();
+
 signals:
     
 public slots:
