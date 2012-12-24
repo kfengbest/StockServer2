@@ -22,3 +22,8 @@ void MainWindow::on_pushButton_2_clicked()
 {
     ui->lineEdit_2->setText("hello in branch2");
 }
+
+void MainWindow::on_pushButton_3_clicked()
+{
+
+}
