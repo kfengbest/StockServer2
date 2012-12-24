@@ -2,6 +2,7 @@
 #define WORKERTHREAD3_H
 
 #include <QObject>
+#include <QThread>
 
 class WorkerThread3 : public QObject
 {
@@ -13,6 +14,9 @@ signals:
     
 public slots:
     
+private:
+    QThread* m_thread;
+
 };
 
 #endif // WORKERTHREAD3_H
