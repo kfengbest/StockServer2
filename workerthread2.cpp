@@ -3,4 +3,7 @@
 WorkerThread2::WorkerThread2(QObject *parent) :
     QObject(parent)
 {
+    m_thread = new QThread();
+    moveToThread(m_thread);
+    m_thread->start();
 }
