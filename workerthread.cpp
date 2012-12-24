@@ -7,3 +7,8 @@ WorkerThread::WorkerThread(QObject *parent) :
     moveToThread(m_thread);
     m_thread->start();
 }
+
+void WorkerThread::print()
+{
+    // qDebug() << print();
+}
