@@ -27,3 +27,5 @@ void MainWindow::on_pushButton_3_clicked()
 {
 
 }
+
+// Add a new line in branch3 from StockServer24. commited,synced.
